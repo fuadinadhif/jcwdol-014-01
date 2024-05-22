@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CSS - Modal</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .centered {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+      }
+
+      .modal-container {
+        display: none;
+        padding-bottom: 24px;
+        border: 1px solid;
+        border-radius: 8px;
+        max-width: 500px;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        z-index: 1;
+      }
+
+      .image-wrapper {
+        width: 100%;
+        height: 150px;
+        border-radius: 8px 8px 0 0;
+        overflow: hidden;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      h1 {
+        margin-bottom: 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+
+      p {
+        margin-top: 8px;
+      }
+
+      h1,
+      p {
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 32px;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 8px;
+        background-color: hotpink;
+        color: white;
+        font-family: inherit;
+      }
+
+      #open-radio:checked + .modal-container,
+      #open-radio:checked ~ .overlay {
+        display: block;
+      }
+
+      #open-radio {
+        width: 100px;
+        height: 50px;
+        opacity: 0;
+        cursor: pointer;
+      }
+
+      #close-radio {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        background-color: hotpink;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      #close-radio:before,
+      #close-radio:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 8px;
+        width: 20px;
+        height: 3px;
+        content: "";
+        background-color: white;
+      }
+
+      #close-radio:before {
+        transform: rotate(45deg);
+      }
+
+      #close-radio:after {
+        transform: rotate(-45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="centered" id="open-btn">Open Modal</button>
+    <input
+      type="radio"
+      name="open-close-radio"
+      id="open-radio"
+      class="centered"
+    />
+    <div class="modal-container centered">
+      <input type="radio" name="open-close-radio" id="close-radio" />
+      <div class="image-wrapper">
+        <img
+          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="A beautiful and mesmerizing beach."
+        />
+      </div>
+      <h1>Beautiful Beach</h1>
+      <p>Beautiful beach with clear water and white sand.</p>
+      <button>Lovely!</button>
+    </div>
+  </body>
+</html>
