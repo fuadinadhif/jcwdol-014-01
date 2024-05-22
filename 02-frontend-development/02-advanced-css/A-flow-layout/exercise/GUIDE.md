@@ -6,7 +6,7 @@ Make something like this.
 
 ![Offset title screenshot image.](offset-title-image.png)
 
-## Stretched Content
+## Stretch Out
 
 And then make this.
 
