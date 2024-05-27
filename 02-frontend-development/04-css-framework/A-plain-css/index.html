@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Company</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./image/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div><img src="./assets/image/logo.svg" alt="Company logo." /></div>
+      <nav>
+        <ul>
+          <li><a href="">Features</a></li>
+          <li><a href="">Company</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+        <ul>
+          <li><button>Login</button></li>
+          <li><button>Register</button></li>
+        </ul>
+        <button id="hamburger-menu">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M3 6H21" stroke="currentColor" stroke-width="2"></path>
+            <path d="M3 12H21" stroke="currentColor" stroke-width="2"></path>
+            <path d="M3 18H21" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div id="text">
+          <h1>
+            Make <br />
+            remote work
+          </h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button>Learn more</button>
+          <div id="clients">
+            <img src="./assets/image/client-databiz.svg" alt="Databiz logo." />
+            <img
+              src="./assets/image/client-audiophile.svg"
+              alt="Audiophile logo."
+            />
+            <img src="./assets/image/client-meet.svg" alt="Meet Logo" />
+            <img src="./assets/image/client-maker.svg" alt="Maker logo." />
+          </div>
+        </div>
+        <div id="image">
+          <picture>
+            <source
+              srcset="./assets/image/image-hero-mobile.png"
+              media="(max-width: 850px)"
+            />
+            <img
+              src="./assets/image/image-hero-desktop.png"
+              alt="Illustration of a team."
+            />
+          </picture>
+          <!-- <img
+            src="./assets/image/image-hero-desktop.png"
+            alt="Illustration of a team."
+          /> -->
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
