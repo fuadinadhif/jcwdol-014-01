@@ -4,7 +4,9 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <h1>Logo</h1>
+        <Link to="/">
+          <h1>Logo</h1>
+        </Link>
       </div>
       <nav>
         <ul>
