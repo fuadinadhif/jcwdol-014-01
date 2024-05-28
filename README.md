@@ -23,3 +23,4 @@
 2.  [Advanced CSS](https://docs.google.com/presentation/d/1xQ4aAvIXugk3F2aUEJYSG73VfNCS2Wl4C4P6BzvLc5U/edit?usp=drive_link)
 3.  [Intro to React](https://docs.google.com/presentation/d/1fX2wHvPpoXYMSNdBr6ZAHuDM9s1E7p6rL4PTImEQvYs/edit?usp=drive_link)
 4.  [CSS Framework](https://docs.google.com/presentation/d/10o9Vt6_A5muH5-FuI7uDlxTv_PciKooYKaj9F8XHh8U/edit?usp=drive_link)
+5.  [Exercise](https://docs.google.com/presentation/d/1vwuNCRGvsUDb09XC_9NH0lmeobZU4pxuIoNI9vQhnUg/edit?usp=sharing)
