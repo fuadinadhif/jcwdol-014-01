@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        border: 1px solid red;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 100vh;
+      }
+
+      div:first-child {
+        order: 4;
+      }
+
+      div:last-child {
+        order: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>Item 1</div>
+      <div>Item 2</div>
+      <div>Item 3</div>
+      <div>Item 4</div>
+    </main>
+  </body>
+</html>
