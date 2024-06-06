@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+}
+
+main,
+header,
+footer {
+  padding: 16px;
+}
+
+footer {
+  background-color: paleturquoise;
+}
+
+body {
+  font-family: monospace;
+}
+
+a {
+  color: white;
+}
+
+a h2 {
+  color: black;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 18px;
+}
