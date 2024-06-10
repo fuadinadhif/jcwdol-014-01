@@ -1,0 +1,32 @@
+import Link from "next/link";
+import Image from "next/image";
+
+export default function RecipeCard({ recipe }) {
+  const { title, slug, cookingTime, thumbnail } = recipe.fields;
+
+  return (
+    <div>
+      <div className="h-80">
+        <Image
+          src={`https:${thumbnail.fields.file.url}`}
+          alt="Thumbnail recipe image"
+          width={thumbnail.fields.file.details.image.width}
+          height={thumbnail.fields.file.details.image.height}
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <div className="mt-6">
+        <h3 className="text-xl font-bold">{title}</h3>
+        <p className="mb-6">
+          Takes approximately {cookingTime} minutes to make.
+        </p>
+        <Link
+          href={`/recipes/${slug}`}
+          className="border-2 border-black px-6 py-3"
+        >
+          Cook this
+        </Link>
+      </div>
+    </div>
+  );
+}
