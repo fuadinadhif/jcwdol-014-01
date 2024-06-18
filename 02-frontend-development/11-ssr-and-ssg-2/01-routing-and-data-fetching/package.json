@@ -1,5 +1,5 @@
 {
-  "name": "02-routing",
+  "name": "01-routing-and-data-fetching",
   "version": "0.1.0",
   "private": true,
   "scripts": {

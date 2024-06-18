@@ -26,3 +26,16 @@
 5.  [Exercise](https://docs.google.com/presentation/d/1vwuNCRGvsUDb09XC_9NH0lmeobZU4pxuIoNI9vQhnUg/edit?usp=sharing)
 6.  [React Hooks](https://docs.google.com/presentation/d/1l7JjPIQW1F50lDxTe2Xg___REDeTMAe_5XZ2c9WEyWM/edit?usp=drive_link)
 7.  [State Management](https://docs.google.com/presentation/d/1zOxs9fSYnhywX2R4SiwU9j8pTrp7sX-GxYkfx4ohM4A/edit?usp=drive_link)
+8.  [Network Call & Form Validation](https://docs.google.com/presentation/d/1uqxb0C5sM01Vgqha5pVhDxXIhVl9WMtBzLGxBu-hI7w/edit?usp=drive_link)
+9.  [Exercise](https://docs.google.com/presentation/d/1NGVWo1UFmVlT4gCgVi_gpPgCLrfpsF0F6w-IOPfFjww/edit?usp=drive_link)
+10. [Server Side Rendering & Static Site Generation I](https://docs.google.com/presentation/d/1LxXUNp4HNCh2OpILFuDSI92TAs1ANqfbxFZDR2_8BoA/edit?usp=drive_link)
+11. [Server Side Rendering & Static Site Generation II](https://docs.google.com/presentation/d/1KvD_XajPSDhOkkiWHXdAj6zAzkav-t_881251Gy0ky4/edit?usp=drive_link)
+12. [Exercise](https://docs.google.com/presentation/d/13Qbw3ifuwei_l4JlGL175GW5gGu3w8YYXO_ftTMHCcI/edit?usp=drive_link)
+13. [Exercise](https://docs.google.com/presentation/d/14sSyJbTfgoSvK4OPUo_ZYv9UG0VwSpIaxvWHlf4ahTw/edit?usp=drive_link)
+14. [Exercise](https://docs.google.com/presentation/d/1uCLxzO3QVCHiboiMQx3MEUvsbxlBfOB-I1KsTLQiXMQ/edit?usp=drive_link)
+15. [Supplementary Material - Introduction to Test in Next.js](https://docs.google.com/presentation/d/1IRbCJsqSOpz4MaxFVJnwurbYW0GbvcDvG-Hnd5UKolU/edit?usp=drive_link)
+
+### Module 3 - Backend Development
+
+1.  [Introduction to TypeScript](https://docs.google.com/presentation/d/1wsk1kA9QneMmUCcJp8MOC1bPZPpRASmcxIBRLyQKtx8/edit?usp=drive_link)
+2.  [Introduction to Backend Development and Node.js](https://docs.google.com/presentation/d/1BYfE3L-B2gJ3Q3t9XwitdWHrZZqdkB4ow8t28dzzSOY/edit?usp=drive_link)
